@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Pratica Integradora Desenvolvimento de Software</title>
+</head>
+
+<body>
+
+    <h1>Formulario Exemplos</h1>
+    <br>
+    <fieldset>
+        <form action="https://pruu.herokuapp.com/dump/test" method="post">
+            <div>
+                <label for="pais">Pais *</label><br>
+                <select name="pais" id="pais">
+                    <option select value="BR">Brasil</option>
+                    <option value="Col">Colômbia</option>
+                    <option value="Port">Portugal</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input placeholder="CEP" type="text" name="cep" id="cep" maxlength="10">
+            </div>
+            <br>
+            <div>
+                
+                <input placeholder="Endereço" type="text" name="endereco" id="endereco">
+            </div>
+            <br>
+            <div>
+                
+                <input placeholder="Número" type="number" name="numero" id="numero">
+            </div>
+            <br>
+            
+            <div>
+               
+                <input placeholder="Complemento" type="text" name="complemento" id="complemento">
+            </div>
+            <br>
+            <div>
+                <label for="uf">UF *</label><br>
+                <select name="uf" id="uf">
+                    <option select value="default">-</option>
+                    <option value="muni1">Muni1</option>
+                    <option value="muni2">Muni2</option>
+                    <option value="Mun3">Muni3</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="uf">Cidade*</label><br>
+                <select name="uf" id="uf">
+                    <option select value="default">-</option>
+                    <option value="cid1">cid1</option>
+                    <option value="cid2">cid2</option>
+                    <option value="cid3">cid3</option>
+                </select>
+            </div>
+    </fieldset>
+    <hr>
+    <fieldset>
+        Dados Profissionais
+    </fieldset>
+    <button type="submit">Atualizar Dados</button>
+    <button type="reset">Limpar Dados</button>
+    </form>
+
+    <form action="https://pruu.herokuapp.com/dump/test" method="post" target="_blank"></br>
+
+
+        <fieldset>
+            <fieldset>
+                <label for="Nome"><input type="text" name="name" id="name">Nome</label><br>
+                <label for="password"><input type="password" name="password" id="password">Senha</label><br>
+                <input type="number" name="idade" id="idade"></input>
+                <input type="email" name="email" id="email"></input>
+                <input type="date" name="dataNascimento" id="dataNascimento">
+                <input type="color" name="cor" id="cor">
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <input>AssuntoTeste</input type="text" name="assunto" id="assunto"><br>
+                <br>
+                <input type="file" name="file" id="file" multiple>
+                <br>
+                <select name="motivo" id="motivo">
+                    <option value="sem_motivo">Não Selecionado</option>
+                    <option value="pq_sim">Porque Sim</option>
+                    <option value="elogio">Aula Legal</option>
+                    <option value="reclamacao">Aula péssima</option>
+                </select>
+                <br>
+                <br>
+                <textarea name="corpoEmail" id="corpoEmail" cols="30" rows="10"></textarea>
+                <br>
+
+
+            </fieldset>
+            <br>
+            <button type="submit">Enviar</button><br>
+            <br>
+        </fieldset>
+    </form>
+</body>
+
+</html>

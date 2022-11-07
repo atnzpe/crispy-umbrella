@@ -1,0 +1,70 @@
+body{
+    background-color: burlywood;
+}
+
+h2, p  {
+    color: brown;
+    text-align: center;
+     
+}
+
+ol{
+    color: black;
+    flex: strong;
+    font-weight: bold;
+    text-indent: 30%;
+}
+#color-table {
+    color: blueviolet;
+    background-color: black;  
+}
+#list{
+    background-color: aqua;
+}
+#texto{
+    color: white;
+    background-color: blueviolet; 
+}
+
+}
+.table{
+    background-color: blueviolet;
+    color: white;
+    
+    text-transform: lowercase;
+    border: 1rem;
+    height: auto;
+    width: auto;
+    
+    border: 10rem;
+        
+}
+
+.table-exemple {
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.table-head {
+    align-items: center ;
+    border-color: beige;
+    /*background-color: yellow;*/
+}
+
+.table-body {
+    align-items: auto ;
+    text-align: right;
+    background-color: green;
+}
+
+.table-foot {
+    
+    text-align: center;
+    background-color: red;
+}
+
+#div-table{
+   border: 1;
+   border-collapse: collapse; 
+}
